@@ -1,0 +1,282 @@
+//#include<bits/stdc++.h>
+#include<stdio.h>
+#include<windows.h>
+#include<time.h>
+using namespace std;
+short l() {
+	return rand() % 3;
+}
+void men1()
+{
+	Sleep(500);
+	//	system("cls");
+	printf("                                \n");
+	printf("               ***              \n");
+	printf("              *****             \n");
+	printf("               ***              \n");
+	printf("       *******************      \n");
+	printf("              *****             \n");
+	printf("              *****             \n");
+	printf("              *****             \n");
+	printf("              ** **             \n");
+	printf("              ** **             \n");
+	printf("              ** **             \n");
+}
+void men2()
+{
+	Sleep(500);
+	//	system("cls");
+	printf("                                \n");
+	printf("      |                   |     \n");
+	printf("      |        ***        |     \n");
+	printf("      %c       *****       %c    \n", 25, 25);
+	printf("               ***              \n");
+	printf("       *******************      \n");
+	printf("              *****             \n");
+	printf("              *****             \n");
+	printf("            ***   ***           \n");
+	printf("            **     **           \n");
+	printf("            **     **           \n");
+}
+void men3()
+{
+	Sleep(500);
+	system("cls");
+	printf("                                \n");
+	printf("         O     ***              \n");
+	printf("         **   *****             \n");
+	printf("          **   ***              \n");
+	printf("            *********           \n");
+	printf("              *****   **        \n");
+	printf("              *****      **     \n");
+	printf("              **  **            \n");
+	printf("              **   **           \n");
+	printf("              **    **          \n");
+	printf("              **     **         \n");
+}
+void men4()
+{
+	Sleep(500);
+	system("cls");
+	printf("        \\|/                    \n");
+	printf("---------O-----***--------------\n");
+	printf("        /|\\   *****            \n");
+	printf("       / |**   ***              \n");
+	printf("      /  |  *********           \n");
+	printf("     /   |    *****   **        \n");
+	printf("    /    |    *****      **     \n");
+	printf("   /     |    **\\ **           \n");
+	printf("  /      |    ** \\ **          \n");
+	printf(" /       |    **  \\ **         \n");
+	printf("/        |    **   \\ **        \n");
+}
+void men5()
+{
+	Sleep(500);
+	system("cls");
+	printf("         !!  ! !                 \n");
+	printf("      ! !!!!    ***              \n");
+	printf("        !!!! !***!*             \n");
+	printf("   !  !   !*   ***              \n");
+	printf("            *********           \n");
+	printf("         !    *****   **        \n");
+	printf("              *****      **     \n");
+	printf("              **  **            \n");
+	printf("              **   **           \n");
+	printf("              **    **          \n");
+	printf("              **     **         \n");
+	Sleep(100);
+	system("cls");
+	printf("          !!!!!!       !         \n");
+	printf("      !  !!!!!!!!  ! !         \n");
+	printf("        !!!!!!!!!!**     !       \n");
+	printf("     !  !!!!!!!!!! !  !         \n");
+	printf("         !!!!!!!!!***   !       \n");
+	printf("      !   !!!!!****   **        \n");
+	printf("              *****      **     \n");
+	printf("       !      **  **            \n");
+	printf("              **   **           \n");
+	printf("              **    **          \n");
+	printf("              **     **         \n");
+	Sleep(100);
+	system("cls");
+	printf("      !   !!!!!!!!!  !            \n");
+	printf("         !!!!!!!!!!!    !      \n");
+	printf("     !  !!!!!!!!!!!!!!     !      \n");
+	printf("        !!!!!!!!!!!!!  !         \n");
+	printf("       ! !!!!!!!!!!!*     !     \n");
+	printf("    !     !!!!!!!!!   **        \n");
+	printf("        !   !!!!!!*   !  **     \n");
+	printf("         !    **  *!      !     \n");
+	printf("          !   !*!  **! !        \n");
+	printf("              **    **          \n");
+	printf("              **     **         \n");
+}
+void jiandao()
+{
+	Sleep(1000);
+	//	system("cls");	
+	printf("                                \n");
+	printf("         *         *            \n");
+	printf("          *       *             \n");
+	printf("           *     *              \n");
+	printf("            *   *               \n");
+	printf("             * *                \n");
+	printf("              *                 \n");
+	printf("             * *                \n");
+	printf("        *** *   * ***           \n");
+	printf("       *   *     *   *          \n");
+	printf("        ***       ***           \n");
+	printf("            剪 刀               \n");
+
+}
+void bu()
+{
+	Sleep(100);
+	//	system("cls");	
+	printf("                                \n");
+	printf("      ####################      \n");
+	printf("      ####################      \n");
+	printf("      ####################      \n");
+	printf("      ####################      \n");
+	printf("      ####################      \n");
+	printf("      ####################      \n");
+	printf("      ####################      \n");
+	printf("      ####################      \n");
+	printf("      ####################      \n");
+	printf("      ####################      \n");
+	printf("               布               \n");
+}
+void shitou()
+{
+	Sleep(1000);
+	//	system("cls");	
+	printf("                                \n");
+	printf("                                \n");
+	printf("                                \n");
+	printf("              @@@@@@@           \n");
+	printf("            @@@@@@@@@@@         \n");
+	printf("           @@@@@@@@@@@@@        \n");
+	printf("          @@@@@@@@@@@@@@@       \n");
+	printf("           @@@@@@@@@@@@@        \n");
+	printf("            @@@@@@@@@@@         \n");
+	printf("              @@@@@@@           \n");
+	printf("               石 头            \n");
+}
+int sc, win, lose, ping, t, e;
+int main() {
+	srand((char)(time(NULL)));
+	printf("剪刀石头布1.0\n\n1717班刘玄昊出品\n");
+	printf("=====================================\n");
+	printf("是否开始?   1为开始,0为结束\n输入:");
+	scanf_s("%d", &t);
+	system("cls");
+	printf("=====================================\n");
+	while (t >= 1) {
+		printf("\n请选择:\n1.剪刀  2.石头  3.布\n请输入编号:");
+		scanf_s("%d", &sc);
+		system("cls");
+		printf("玩家使出了");
+		if (sc == 1)
+		{
+			printf("剪刀!\n\n电脑正面对着你......\n");
+			men1();
+		}
+		if (sc == 2)
+		{
+			printf("石头!\n\n电脑正面对着你......\n");
+			men1();
+		}
+		if (sc == 3)
+		{
+			printf("布!\n\n电脑正面对着你......\n");
+			men1();
+		}
+
+		Sleep(2000);
+		system("cls");
+		printf("\n电脑蹲了下来!\n！！！他在蓄力！！？？\n内心(!@#$#`@!%`#$`#$!&*@^!)\n");
+		men2();
+		Sleep(2000);
+
+		int q = l() + 1;
+		system("cls");
+		printf("\n电脑使出了!!!!\n");
+		Sleep(200);
+		men3(); men4(); men5();
+		system("cls");
+		if (q == 1) jiandao();
+		if (q == 2) shitou();
+		if (q == 3) bu();
+		Sleep(2000);////////////////
+		if (sc == q) {
+			printf("\n\n平局!");
+			ping++;
+		}
+		if (sc == 1) {
+			if (q == 2) {
+				printf("\n\n你输了!");
+				lose++;
+			}
+			if (q == 3) {
+				printf("\n\n你赢了!");
+				win++;
+			}
+		}
+
+		if (sc == 2) {
+			if (q == 3) {
+				printf("\n\n你输了!");
+				lose++;
+			}
+			if (q == 1) {
+				printf("\n\n你赢了!");
+				win++;
+			}
+		}
+
+		if (sc == 3) {
+			if (q == 1) {
+				printf("\n\n你输了!");
+				lose++;
+			}
+			if (q == 2) {
+				printf("\n\n你赢了!");
+				win++;
+			}
+		}
+		printf("\n=================\n");
+		if (t == 5) printf("您已经玩了五局了!\n");
+
+		if (t >= 1) {
+			Sleep(1200);
+			printf("\n还要再来一局吗?\n1为继续,0为结束\n输入:");
+			int k;
+			scanf_s("%d", &k);
+			if (k == 1) {
+				t++;
+				system("cls");
+			}
+			else {
+				e = t;
+				t = 0;
+			}
+		}
+	}
+	if (t == 0) {
+		double v = double(win) / e * 100;
+		printf("\n=================\n");
+		printf("\n你的胜率为:");
+		Sleep(1000);
+		printf("%.2lf%%", v);
+		Sleep(500);
+		if (v >= 90) {
+			printf("\n您真是欧皇!\n");
+		}
+		if (v <= 10) printf("\n别灰心!\n");
+		if (win == lose && win == ping) printf("\n您成功的验证了概率学. 1:1:1 !");
+		printf("\n感谢您的支持! 再见!");
+		Sleep(500);
+	}
+	return 0;
+}
